@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quang Vinh </title>
+    <style>
+        body{
+            background-color: rgb(13, 223, 238);
+        }
+
+        @media screen and (max-width: 320px) {
+            body {
+                background-color: orange;
+             }
+        }
+    </style>
+    <link rel="stylesheet" href="bai1.css">
+</head>
+<body>
+
+        <div class="menu_web">
+            <div class="menu">
+                <ul class="root">   
+                    <li><a href=""> Trang chu </a></li>
+                    <li><a href=""> Gioi thieu </a>
+                        <ul class="submenu">
+                            <li><a href=""> Shop Quan ao </a></li><br>
+                            <li><a href=""> Shop Giay dep </a></li><br>
+                        </ul>
+                    </li>    
+                    <li><a href=""> San Pham </a>
+                        <ul class="submenu">
+                            <li><a href="">Quan ao Nam dep</a></li> <br><br>
+                            <li><a href="">Giay giay Nu Dep</a></li> 
+                        </ul>
+                    </li>  
+                    <li><a href="">Hoi Dap </a></li>  
+                    <li><a href="">Lien He</a></li>
+            </div>
+        </div>
+        <div class="anhshop">
+            <marquee behavior="" direction="">
+                <img src="shop.jpg" alt="" width="1000px" height="500px">
+            </marquee>
+        </div>
+
+        
+            <div class="feedback-form">
+                <h2>Góp Ý</h2>
+                <form action="/submit-feedback" method="POST">
+                  
+                  <div class="form-group">
+                    <label for="name">Tên của bạn:</label>
+                    <input type="text" id="name" name="name" placeholder="Nhập tên của bạn" required>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="email">Email của bạn:</label>
+                    <input type="email" id="email" name="email" placeholder="Nhập email của bạn" required>
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="feedback">Ý kiến đóng góp:</label>
+                    <textarea id="feedback" name="feedback" placeholder="Nhập ý kiến của bạn" required></textarea>
+                  </div>
+            
+                  <button type="submit">Gửi ý kiến</button>
+           
+                </form>
+              </div>
+             
+                <h3> ẢNH SẢN PHẨM ÁO SƠ MI </h3>
+
+            <div class="Anhsanpham">
+                <img src="bbr3.jpg" alt="">
+                <img src="dior.jpg" alt="">
+                <img src="bbr.jpg" alt="">
+                <img src="bbr2.jpg" alt="">
+
+            </div>
+
+            
+              
+</body>
+</html>
